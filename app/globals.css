@@ -212,6 +212,10 @@
   background: linear-gradient(90deg, #153b64 0%, #396da0 100%);
 }
 
+.gradient_orange {
+  background: linear-gradient(90deg, #f97316 0%, #fb923c 100%);
+}
+
 .text-gradient_blue {
   background: linear-gradient(90deg, #4c73ff 2.34%, #389bff 100.78%);
   -webkit-background-clip: text;
