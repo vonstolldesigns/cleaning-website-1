@@ -4,6 +4,7 @@ import CardsSection from "@/components/CardsSection";
 import HeroSection from "@/components/HeroSection";
 import PriceCardsDisplay from "@/components/PriceCardsDisplay";
 import Quote1 from "@/components/Quote1";
+import SeamlessProcess from "@/components/SeamlessProcess";
 
 const HomePage = () => {
   const cardsData = [
@@ -43,6 +44,7 @@ const HomePage = () => {
   return (
     <>
       <HeroSection />
+      <SeamlessProcess />
       <Quote1 />
       <AboutUs />
       <PriceCardsDisplay cardsData={cardsData} />

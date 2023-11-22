@@ -46,7 +46,7 @@
   }
 
   .paragraph-regular {
-    @apply text-[14px] sm:text-[20px] font-normal leading-[26px];
+    @apply text-[14px] sm:text-[20px] font-extralight leading-[26px];
   }
 
   .paragraph-semibold {
