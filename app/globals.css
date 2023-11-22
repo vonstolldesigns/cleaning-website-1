@@ -26,7 +26,7 @@
   }
 
   .heading1 {
-    @apply text-[56px] sm:text-[64px] leading-[67.2px] font-normal;
+    @apply text-[42px] sm:text-[50px] leading-[67.2px] font-medium;
   }
 
   .heading2 {

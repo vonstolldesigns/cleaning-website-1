@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 // import ImageSlider from "./ImageSlider";
 
 const HeroSection = () => {
@@ -13,9 +14,17 @@ const HeroSection = () => {
 
       {/* Overlay Content */}
       <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center p-4">
-        <div className="text-center">
-          <h1 className="text-white mb-4 heading1">Title</h1>
-          <p className="text-slate-200 mb-6 paragraph-regular">" Sub Title "</p>
+        <div className="flex flex-col text-center gap-3">
+          <h1 className="text-white mb-4 heading1 max-w-2xl mx-auto">
+            Transforming Spaces, One Clean at a Time
+          </h1>
+          <p className="text-slate-200 font-light mb-6 text-lg max-w-4xl">
+            Explore our range of cleaning solutions and experience the
+            difference of a pristine space today.
+          </p>
+          <Link href="/" className="font-light text-white">
+            Read More
+          </Link>
           {/* <div className="space-x-4">
             <button className="bg-white text-gray-800 px-6 py-2 rounded-md hover:bg-opacity-90 transition">
               Button 1
