@@ -45,11 +45,11 @@ const HomePage = () => {
     <>
       <HeroSection />
       <SeamlessProcess />
-      <Quote1 />
-      <AboutUs />
+      {/* <Quote1 /> */}
+      {/* <AboutUs /> */}
       <PriceCardsDisplay cardsData={cardsData} />
       <Banner />
-      <CardsSection />
+      {/* <CardsSection /> */}
     </>
   );
 };
